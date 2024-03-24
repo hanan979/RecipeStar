@@ -74,7 +74,7 @@ function App() {
         </div>
       </header>
       <Routes>
-        <Route path="/RecipeStar" element={<ListView recipes={recipes} />} />
+        <Route path="/" element={<ListView recipes={recipes} />} />
         <Route path="/recipe/:id" element={<DetailView recipes={recipes} />} />
         <Route path="/add-recipe" element={<AddRecipeForm onAddRecipe={handleAddRecipe} />} />
       </Routes>
