@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RecipeStar/static/css/main.9b5aaac1.css",
+    "main.js": "/RecipeStar/static/js/main.67484da0.js",
+    "static/media/coffee.jpg": "/RecipeStar/static/media/coffee.8cb50d1ac91240cd7737.jpg",
+    "static/media/Spaghetti.jpg": "/RecipeStar/static/media/Spaghetti.e23f4fdb5f65079e2351.jpg",
+    "static/media/Mushroom_Soup.jpg": "/RecipeStar/static/media/Mushroom_Soup.02021acb77f8fef0f8cd.jpg",
+    "index.html": "/RecipeStar/index.html",
+    "main.9b5aaac1.css.map": "/RecipeStar/static/css/main.9b5aaac1.css.map",
+    "main.67484da0.js.map": "/RecipeStar/static/js/main.67484da0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b5aaac1.css",
+    "static/js/main.67484da0.js"
+  ]
+}
