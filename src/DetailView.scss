@@ -1,0 +1,114 @@
+// full page
+.container {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //overflow: auto; /* Allow vertical scrolling if content exceeds viewport height */
+  position: relative;
+  //flex: 1;
+  padding-bottom: 20px; 
+}
+// top content
+.content {
+  display: flex;
+  //flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  //margin-top: 20px;
+  max-width: 978px;
+  margin: auto;    
+  margin-bottom: 20px;
+}
+// left panel 
+.left-panel {
+  width: 60%;
+  box-sizing: border-box;
+}
+.left-panel img {
+  width: 400px; 
+  height: 400px; 
+  object-fit: cover; 
+  border-radius: 15px;
+}
+// right panel  
+.right-panel {
+  width: 60%;
+  line-height: 1.33;
+  vertical-align: middle;
+  justify-content: center;
+}
+.right-panel{ 
+  text-align: center;
+}
+.right-panel h2 {
+  font-size: 45px; 
+  color: #000;
+}
+.right-panel p {
+  font-size: 40px; 
+  color: #EB631B;
+}
+.right-panel span {
+  font-weight: light;
+  font-size: 20px; 
+  color: #C19570;
+}  
+// buttom instructions 
+.instructions {
+  margin-top: 15px;
+  //text-align: left;
+  align-items: left;
+  width: 70%;
+}
+.instructions h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #EB631B;
+} 
+.instructions ul,
+.instructions ol {
+  padding-left: 20px; 
+  color: #000;
+}
+// Mobile 
+@media (max-width: 768px) {
+  .container{
+    margin-top: 0px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .right-panel h2{
+    margin: 5px;
+  }
+  .right-panel p{
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .right-panel span {
+    font-size: 18px; 
+  }
+  .left-panel img {
+    margin: 20px; 
+    max-width: 90%; 
+    height: auto; 
+    max-height: 300px; 
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .instructions {
+    margin-top: 0px;
+    width: 90%;
+  }
+  .instructions h3{
+    font-size: 18px;
+  }
+}

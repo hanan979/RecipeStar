@@ -1,0 +1,61 @@
+.addR{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px; 
+}
+
+.addR h2{
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; /* Add padding for better visual appearance */
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #EB631B;
+  font-weight: bold;
+}
+input[type="text"],
+textarea,
+input[type="number"],
+button,
+input[type="file"] {
+  width: calc(100% - 16px); /* Adjust width to account for padding */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #AAC4E7;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="file"]{
+  background-color: #AAC4E7;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  appearance: none;
+}
+button {
+  font-weight: bold;
+  background-color: #AAC4E7;
+  color: #000;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #EB631B;
+}
+textarea {
+  min-height: 100px;
+}
+// .prev img{
+//   width: 16%;
+//   height: auto;
+// }
+.error {
+  color: red;
+  font-size: 14px;
+}

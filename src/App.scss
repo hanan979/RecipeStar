@@ -1,0 +1,63 @@
+/*
+color scheme 
+#EBEBDF
+#AAC4E7
+#EB631B
+#C19570
+#000000
+*/
+.header {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #EBEBDF;
+  position: relative; 
+  border-color: #000;
+}
+.App-link {
+  color: #EB631B;
+  text-decoration: none;
+  font-size: 40px;
+}
+.add-recipe {
+  background-color: #AAC4E7;
+  color: #EB631B; 
+  border: none; 
+  border-radius: 20px; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  font-weight: bold;
+  cursor: pointer; 
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  right: 20px; 
+  transform: translateY(-50%);
+  @media screen and (max-width: 768px) {
+    .App-link {
+      font-size: 20px;
+      text-align: center;
+    }
+    .navmenu {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Align items to the center */
+    }
+    .add-recipe {
+      position: relative; /* Change button position to relative for mobile view */
+      top: auto; /* Reset top position */
+      right: auto; /* Reset right position */
+      transform: none; /* Reset transform */
+      margin-top: 100px; /* Add margin to create space below the title */
+    }
+  }
+}
+.navmenu {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px; 
+}
+.links {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
